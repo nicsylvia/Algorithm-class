@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tracker{
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 600px;
+}
+.tracker, 
+.tracker *{
+    font-family: sans-serif;
+}
+.tracker th{
+    font-size: 1.15em;
+    font-weight: normal;
+    text-align: left;
+    color: white;
+    background-color: blue;
+}
+.tracker th,
+.tracker td{
+    padding: 1em;
+}
+.tracker-row{
+    background-color: rgb(30, 193, 247);
+}
+.tracker-row:nth-child(odd){
+    background-color: rgb(44, 174, 218);
+}
+.tracker-date,
+.tracker-workout,
+.tracker-duration{
+    height: 2.5em;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1em;
+    padding: 0.5em 0;
+    outline: 0;
+    
+
+}

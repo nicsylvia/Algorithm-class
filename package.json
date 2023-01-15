@@ -1,0 +1,29 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.8.0",
+    "nodemon": "^2.0.20",
+    "prompt-sync": "^4.2.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicsylvia/Console-joggerman-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicsylvia/Console-joggerman-app/issues"
+  },
+  "homepage": "https://github.com/nicsylvia/Console-joggerman-app#readme",
+  "description": ""
+}
